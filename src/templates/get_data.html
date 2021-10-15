@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body onload = 'script()'>
+  
+    <script>
+        function script(){
+            $.ajax({
+              url: "/src/submit.py",
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
+
+</body>
+</html>
